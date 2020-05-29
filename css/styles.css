@@ -1,0 +1,174 @@
+/** Tag Selectors **/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 75px;
+    margin-bottom: 0px
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+
+/** Class Selector **/
+.top-container{
+    background-color: #d4f3ef;
+    position: relative;
+}
+
+.top-container-content{
+    display: block;
+    position: relative;
+    top: 150px;
+}
+
+.middle-container{
+    position: relative;
+    background-color: white;
+}
+
+.skills{
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skill-row{
+    position: relative;
+    margin-top: 100px;
+}
+
+
+.profile-text-content{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.scammer{
+    position: relative;
+    top: 100px;
+}
+
+.profile{
+    position: relative;
+    padding-top: 100px;
+}
+
+.hrline{
+    border-top: 15px dotted gray;
+    width: 5%;
+    position: relative;
+    top: 100px;
+    margin-bottom: 70px;
+}
+
+.bottom-container{
+    background-color: #d4f3ef;
+    margin-bottom: 0;
+    height: 250px;
+    margin-top: 100px;
+
+}
+
+.bottom-container-content{
+    padding-top: 60px;
+}
+
+.contact-me{
+    margin-top: 100px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+
+.skills-content-para{
+    font-size: 20px;
+}
+
+
+/** ID selectors **/
+
+#mypic{
+    width: 15%;
+    padding-top: 20px;
+    position: relative;
+}
+
+#skills-img-1{
+    width: 18%;
+    position: relative;
+    left: 250px;
+    padding-top: 20px;
+}
+
+#skills-img-2{
+    width: 18%;
+    position: relative;
+    right: 250px;
+    padding-top: 100px;
+}
+
+#skills-img-3{
+    width: 18%;
+    position: relative;
+    left: 250px;
+    padding-top: 100px;
+}
+
+#skills-content1{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 570px;
+    top: 210px;
+}
+
+#skills-content2{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    right: 570px;
+    top: 210px;
+}
+
+#skills-content3{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 570px;
+    top: 210px;
+}
+
+#top-content-text{
+    font-size: 25px;
+    margin-top: 0px;
+}    
